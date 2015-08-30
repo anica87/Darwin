@@ -1,0 +1,1 @@
+http://www.codeproject.com/Articles/25261/A-WCF-WPF-Chat-Application

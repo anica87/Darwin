@@ -1,0 +1,3 @@
+https://msdn.microsoft.com/en-us/library/gg405479(v=pandp.40).aspx
+
+http://www.codeproject.com/Articles/690475/Prism-WPF-and-Unity-based-modular-application-step

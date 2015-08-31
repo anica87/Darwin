@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Shared.Common;
-using Shared.BusinessObjects.Devices;
 using Shared.BusinessObjects.Poco;
 
-namespace BusinessObjects.Devices
+namespace Shared.BusinessObjects.Devices
 {
     [Serializable]
     public class HAN  

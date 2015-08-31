@@ -71,9 +71,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Database\hibernate.cfg.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ProjekatTest.Infrastructure\ProjekatTest.Infrastructure.csproj">
       <Project>{404793da-0564-44db-910d-398c38a0287b}</Project>
       <Name>ProjekatTest.Infrastructure</Name>

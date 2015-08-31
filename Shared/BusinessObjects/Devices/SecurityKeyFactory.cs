@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BusinessObjects.Devices;
 using Darwin.Cosem.AccessService;
 
 namespace Shared.BusinessObjects.Devices

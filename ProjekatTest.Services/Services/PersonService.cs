@@ -10,6 +10,7 @@ using ProjekatTest.Infrastructure.Models;
 using ProjekatTest.DAL.Database;
 using ProjekatTest.DAL;
 using ProjekatTest.DAL.UnitOfWork;
+using ProjekatTest.Infrastructure.Interfaces.Services;
 
 namespace ProjekatTest.Services.Services
 {

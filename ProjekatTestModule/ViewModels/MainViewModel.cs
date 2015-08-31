@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using Microsoft.Practices.Prism.PubSubEvents;
 using ProjekatTest.Infrastructure.Events;
+using ProjekatTest.Infrastructure.Interfaces.Services;
 
 namespace ProjekatTestModule.ViewModels
 {

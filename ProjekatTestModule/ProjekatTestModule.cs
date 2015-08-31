@@ -10,6 +10,7 @@ using Microsoft.Practices.Unity;
 using ProjekatTestModule.ViewModels;
 using Microsoft.Practices.ServiceLocation;
 using ProjekatTest.Infrastructure.Interfaces;
+using ProjekatTest.Infrastructure.Interfaces.Services;
 using ProjekatTest.Services.Services;
 
 namespace ProjekatTestModule

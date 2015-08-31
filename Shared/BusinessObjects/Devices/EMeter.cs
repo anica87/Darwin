@@ -1,5 +1,4 @@
-﻿using BusinessObjects.Devices;
-using Shared.BusinessObjects.Poco;
+﻿using Shared.BusinessObjects.Poco;
 using System;
 using System.Collections.Generic;
 using System.Linq;

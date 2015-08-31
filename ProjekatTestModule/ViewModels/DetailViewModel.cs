@@ -13,6 +13,7 @@ using ProjekatTest.Infrastructure.Models;
 using ProjekatTest.Services.Services;
 using Shared.BusinessObjects.Devices;
 using System.ComponentModel;
+using ProjekatTest.Infrastructure.Interfaces.Services;
 
 namespace ProjekatTestModule.ViewModels
 {

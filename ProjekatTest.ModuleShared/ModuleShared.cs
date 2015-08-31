@@ -9,7 +9,7 @@ using Microsoft.Practices.Prism.PubSubEvents;
 namespace ProjekatTest.ModuleShared
 {
     /*
-        TBD
+        TBD TBD!
     */
 
 

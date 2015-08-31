@@ -8,7 +8,9 @@
              d:DesignHeight="400" d:DesignWidth="400">
     <Grid Height="372" VerticalAlignment="Top" Margin="0,0,0,-72" x:Name="gridDetailView" >
         <TabControl>
+            
             <TabItem Header="Device">
+                <Grid>
                 <TextBox x:Name="txtSerialNumber"  HorizontalAlignment="Left" Height="26" Margin="189,68,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
                 <Label x:Name="lblSerialNumber" Content="Serial Number:" HorizontalAlignment="Left" Height="26" Margin="12,76,0,0" VerticalAlignment="Top" Width="102"/>
                 <Label x:Name="lblDeviceType" Content="Device Type:" HorizontalAlignment="Left" Height="26" Margin="12,27,0,0" VerticalAlignment="Top" Width="84"/>
@@ -23,7 +25,9 @@
                 <Label x:Name="lblCerificateFile" Content="Cerificate file:" HorizontalAlignment="Left" Height="26" Margin="12,264,0,0" VerticalAlignment="Top" Width="123"/>
                 <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="220,313,0,0" VerticalAlignment="Top" Width="75"/>
                 <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="315,313,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
+            </Grid>
             </TabItem>
+           
             <TabItem Header="Communication"/>
         </TabControl>
         

@@ -1,0 +1,17 @@
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\ProjekatTest.Services.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\ProjekatTest.Services.pdb
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\ProjekatTest.DAL.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\ProjekatTest.Infrastructure.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\FluentNHibernate.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\NHibernate.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\Microsoft.Practices.Prism.PubSubEvents.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\Iesi.Collections.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\ProjekatTest.DAL.pdb
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\ProjekatTest.Infrastructure.pdb
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\FluentNHibernate.pdb
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\FluentNHibernate.xml
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\NHibernate.xml
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\bin\Debug\Iesi.Collections.xml
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\obj\Debug\ProjekatTest.Services.csprojResolveAssemblyReference.cache
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\obj\Debug\ProjekatTest.Services.dll
+D:\PROJECT GIT ITRON\Darwin\ProjekatTest.Services\obj\Debug\ProjekatTest.Services.pdb

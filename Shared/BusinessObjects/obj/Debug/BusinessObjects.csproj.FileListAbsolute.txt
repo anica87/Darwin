@@ -1,0 +1,32 @@
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\Shared.BusinessObjects.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\Shared.BusinessObjects.pdb
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\crypto.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\Darwin.Cosem.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\PostSharp.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\Shared.Common.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\Shared.Logger.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\log4net.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\TraceTool.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\Shared.Common.pdb
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\Shared.Logger.pdb
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\PostSharp.xml
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\bin\Debug\log4net.xml
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\obj\Debug\Shared.BusinessObjects.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\BusinessObjects\obj\Debug\Shared.BusinessObjects.pdb
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\obj\Debug\Shared.BusinessObjects.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\obj\Debug\Shared.BusinessObjects.pdb
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\Shared.BusinessObjects.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\Shared.BusinessObjects.pdb
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\crypto.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\Darwin.Cosem.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\PostSharp.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\Shared.Common.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\Shared.Logger.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\log4net.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\TraceTool.dll
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\Shared.Common.pdb
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\Shared.Logger.pdb
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\PostSharp.xml
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\bin\Debug\log4net.xml
+D:\PROJECT GIT ITRON\Darwin\Shared\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache

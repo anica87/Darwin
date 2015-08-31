@@ -1,0 +1,11 @@
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\EventAggregation.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\EventAggregation.pdb
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\Microsoft.Practices.Prism.PubSubEvents.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\PostSharp.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\Shared.Common.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\crypto.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\Shared.Common.pdb
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\bin\Debug\PostSharp.xml
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\obj\Debug\EventAggregation.csprojResolveAssemblyReference.cache
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\obj\Debug\EventAggregation.dll
+D:\Itron\FXE-VAL-PROJECTS\SMETS2\src\dev\Shared\EventAggregation\obj\Debug\EventAggregation.pdb

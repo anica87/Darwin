@@ -8,22 +8,24 @@
              d:DesignHeight="400" d:DesignWidth="400">
     <Grid Height="372" VerticalAlignment="Top" Margin="0,0,0,-72" x:Name="gridDetailView" >
         <TabControl>
-            <TabItem Header="Device"/>
+            <TabItem Header="Device">
+                <TextBox x:Name="txtSerialNumber"  HorizontalAlignment="Left" Height="26" Margin="189,68,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
+                <Label x:Name="lblSerialNumber" Content="Serial Number:" HorizontalAlignment="Left" Height="26" Margin="12,76,0,0" VerticalAlignment="Top" Width="102"/>
+                <Label x:Name="lblDeviceType" Content="Device Type:" HorizontalAlignment="Left" Height="26" Margin="12,27,0,0" VerticalAlignment="Top" Width="84"/>
+                <ComboBox x:Name="cboxDeviceType" HorizontalAlignment="Left" Margin="189,23,0,0" VerticalAlignment="Top" Width="201" SelectedItem="{Binding TypeOfDevice}" ItemsSource="{Binding AllDeviceTypes}"/>
+                <TextBox x:Name="txtMAC"  HorizontalAlignment="Left" Height="26" Margin="189,118,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
+                <TextBox x:Name="txtInstallCode"  HorizontalAlignment="Left" Height="26" Margin="189,167,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
+                <TextBox x:Name="txtPreconfigredLinkKey"  HorizontalAlignment="Left" Height="26" Margin="189,217,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
+                <Label x:Name="lblMAC" Content="MAC:" HorizontalAlignment="Left" Height="26" Margin="12,118,0,0" VerticalAlignment="Top" Width="57"/>
+                <Label x:Name="lblInstallCode" Content="Install Code:" HorizontalAlignment="Left" Height="26" Margin="12,167,0,0" VerticalAlignment="Top" Width="82"/>
+                <Label x:Name="lblPreconfigredLinkKey" Content="Preconfigred link key:" HorizontalAlignment="Left" Height="26" Margin="12,217,0,0" VerticalAlignment="Top" Width="123"/>
+                <TextBox x:Name="txtCerificateFile"  HorizontalAlignment="Left" Height="26" Margin="189,264,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
+                <Label x:Name="lblCerificateFile" Content="Cerificate file:" HorizontalAlignment="Left" Height="26" Margin="12,264,0,0" VerticalAlignment="Top" Width="123"/>
+                <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="220,313,0,0" VerticalAlignment="Top" Width="75"/>
+                <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="315,313,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
+            </TabItem>
             <TabItem Header="Communication"/>
         </TabControl>
-        <TextBox x:Name="txtSerialNumber"  HorizontalAlignment="Left" Height="26" Margin="189,68,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
-        <Label x:Name="lblSerialNumber" Content="Serial Number:" HorizontalAlignment="Left" Height="26" Margin="12,76,0,0" VerticalAlignment="Top" Width="102"/>
-        <Label x:Name="lblDeviceType" Content="Device Type:" HorizontalAlignment="Left" Height="26" Margin="12,27,0,0" VerticalAlignment="Top" Width="84"/>
-        <ComboBox x:Name="cboxDeviceType" HorizontalAlignment="Left" Margin="189,23,0,0" VerticalAlignment="Top" Width="201" SelectedItem="{Binding TypeOfDevice}" ItemsSource="{Binding AllDeviceTypes}"/>
-        <TextBox x:Name="txtMAC"  HorizontalAlignment="Left" Height="26" Margin="189,118,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
-        <TextBox x:Name="txtInstallCode"  HorizontalAlignment="Left" Height="26" Margin="189,167,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
-        <TextBox x:Name="txtPreconfigredLinkKey"  HorizontalAlignment="Left" Height="26" Margin="189,217,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
-        <Label x:Name="lblMAC" Content="MAC:" HorizontalAlignment="Left" Height="26" Margin="12,118,0,0" VerticalAlignment="Top" Width="57"/>
-        <Label x:Name="lblInstallCode" Content="Install Code:" HorizontalAlignment="Left" Height="26" Margin="12,167,0,0" VerticalAlignment="Top" Width="82"/>
-        <Label x:Name="lblPreconfigredLinkKey" Content="Preconfigred link key:" HorizontalAlignment="Left" Height="26" Margin="12,217,0,0" VerticalAlignment="Top" Width="123"/>
-        <TextBox x:Name="txtCerificateFile"  HorizontalAlignment="Left" Height="26" Margin="189,264,0,0" TextWrapping="Wrap" Text="{Binding Selected.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="201"/>
-        <Label x:Name="lblCerificateFile" Content="Cerificate file:" HorizontalAlignment="Left" Height="26" Margin="12,264,0,0" VerticalAlignment="Top" Width="123"/>
-        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="220,313,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="315,313,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
+        
     </Grid>
 </UserControl>

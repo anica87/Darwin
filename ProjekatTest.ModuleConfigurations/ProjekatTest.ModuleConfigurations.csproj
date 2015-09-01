@@ -93,8 +93,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\DetailViewModelModuleConfigurations.cs" />
     <Compile Include="ViewModels\IDetailViewModelModuleConfigurations.cs" />
+    <Compile Include="ViewModels\IMainMeniViewModel.cs" />
+    <Compile Include="ViewModels\IScriptsViewModel.cs" />
+    <Compile Include="ViewModels\MainMeniViewModel.cs" />
+    <Compile Include="ViewModels\ScriptsViewModel.cs" />
+    <Compile Include="Views\MainMeniView.xaml.cs">
+      <DependentUpon>MainMeniView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ModuleConfigurationsDetail.xaml.cs">
       <DependentUpon>ModuleConfigurationsDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScriptsView.xaml.cs">
+      <DependentUpon>ScriptsView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -112,7 +122,15 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Page Include="Views\MainMeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ModuleConfigurationsDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ScriptsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

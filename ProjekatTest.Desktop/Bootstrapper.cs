@@ -29,7 +29,7 @@ namespace ProjekatTest.Desktop
 
             moduleCatalog.AddModule(typeof(ModuleConfigurations.ModuleConfigurations));
            // moduleCatalog.AddModule(typeof(ProjekatTestModule.ProjekatTestModule));
-           // moduleCatalog.AddModule(typeof (ProjekatTest.ModuleShared.ModuleShared));
+            moduleCatalog.AddModule(typeof (ProjekatTest.ModuleShared.ModuleShared));
         }
 
     }

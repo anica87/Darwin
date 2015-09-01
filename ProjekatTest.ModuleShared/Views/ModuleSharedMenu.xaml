@@ -8,7 +8,7 @@
              d:DesignHeight="300" d:DesignWidth="600">
     <DockPanel>
         <Label Content="LOGO" />
-        <Label Content="Configurations"/>
+        <Button x:Name="ButtonMenuConfigurations" Content="Configurations" Command="{Binding ButtonMenuConfigurationsClick}"/>
         <Label Content="Scripts"/>
         <Label Content="Scheduler"/>
         <Label Content="Reports"/>

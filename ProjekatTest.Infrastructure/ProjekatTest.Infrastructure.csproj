@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Events\ChangeNavigationMain.cs" />
     <Compile Include="Events\SelectedListEvent.cs" />
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\Services\IPersonService.cs" />

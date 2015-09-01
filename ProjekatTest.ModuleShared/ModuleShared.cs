@@ -43,5 +43,10 @@ namespace ProjekatTest.ModuleShared
             container.RegisterType<IStatusBarModuleShared, StatusBarModuleShared>();
             regionManager.RegisterViewWithRegion("StatusRegion", typeof(ModuleSharedStatusBar));
         }
+
+
+
+
+
     }
 }

@@ -5,17 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ProjekatTest.ModuleConfigurations.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="500" d:DesignWidth="600">
-    <Grid Background="GreenYellow" VerticalAlignment="Stretch" >
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <DockPanel Grid.Row="0">
-            <Label Content="Configurations" HorizontalAlignment="left" VerticalAlignment="Center"/>
-            <Button Content="Find Device" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        </DockPanel>
-        <Grid Grid.Row="1" VerticalAlignment="Stretch">
+        <Label Grid.Row="0"  Content="Configurations" HorizontalAlignment="left" VerticalAlignment="Center"/>
+        <Button Grid.Row="0"  Content="Find Device" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Grid Grid.Row ="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="50" />
@@ -24,41 +22,26 @@
                 <ColumnDefinition Width="100" />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <DockPanel Grid.Row="0" Grid.Column="0" VerticalAlignment="Stretch">
-                <DockPanel Dock="Top" >
-                    <Label Content="Device" HorizontalAlignment="Left"/>
-                    <Label Content="HAN" HorizontalContentAlignment="Right"/>
-                </DockPanel>
-                <ScrollViewer VerticalAlignment="Stretch"  VerticalContentAlignment="Stretch" CanContentScroll="True">
-                    <StackPanel VerticalAlignment="Top" Height="auto" CanVerticallyScroll="True">
-                        <Label Content="C111111"/>
-                        <Label Content="C111121"/>
-                        <Label Content="C111121"/>
-                        <Label Content="C111121"/>
-                        <Label Content="C111121"/>
-                    </StackPanel>
-                </ScrollViewer>
-
-            </DockPanel>
-            <ScrollViewer Grid.Row="0" Grid.Column="1" VerticalAlignment="Stretch" CanContentScroll="True">
-                <StackPanel Orientation="Vertical" VerticalAlignment="Stretch">
-                    <Label Content="Element 1"/>
-                    <Label Content="Element 2"/>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Device"/>
+                    <Label Content="HAN"/>
                 </StackPanel>
-            </ScrollViewer>
-            <DockPanel Grid.Row="1" Grid.Column="0" >
-                <Label Content="Add" HorizontalAlignment="Left"/>
-                <Label Content="Insert" HorizontalAlignment="Right"/>
-            </DockPanel>
-            <DockPanel Grid.Row="1" Grid.Column="1">
+                <Label Content="C111111"/>
+                <Label Content="C111121"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+                <Label Content="Element 1"/>
+                <Label Content="Element 2"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="0"  Orientation="Horizontal">
+                <Label Content="Add"/>
+                <Label Content="Insert"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1"  Orientation="Horizontal">
                 <Label Content="Add Device"/>
                 <Label Content="Communication"/>
-                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
-                    <Label Content="Cancel" HorizontalAlignment="Right"/>
-                    <Label Content="Save" HorizontalAlignment="Right"/>
-                </StackPanel>
-            </DockPanel>
+            </StackPanel>
         </Grid>
     </Grid>
-
 </UserControl>

@@ -9,18 +9,12 @@
         Title="ProjekatTest" Height="600" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="75" />
+            <RowDefinition Height="100" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="75" />
+            <RowDefinition Height="100" />
         </Grid.RowDefinitions>
-        <ItemsControl Grid.Row="0" x:Name="MainRegion" prism:RegionManager.RegionName="MainRegion"  Background="DarkCyan" />
-        <ItemsControl Grid.Row="1" x:Name="DetailRegion" prism:RegionManager.RegionName="DetailRegion"  Background="Aquamarine">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <DockPanel />
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-        </ItemsControl>
-        <ItemsControl Grid.Row="2" x:Name="StatusRegion" prism:RegionManager.RegionName="StatusRegion" Background="DarkSalmon"  />
+        <ItemsControl Grid.Row ="0" x:Name="MainRegion" prism:RegionManager.RegionName="MainRegion"  Background="DarkCyan" Width="auto" MinHeight="100" VerticalAlignment="Top"/>
+        <ItemsControl Grid.Row ="1" x:Name="DetailRegion" prism:RegionManager.RegionName="DetailRegion"  Background="Aquamarine" Width="auto" />
+        <ItemsControl Grid.Row ="2" x:Name="StatusRegion" prism:RegionManager.RegionName="StatuslRegion" Background="DarkSalmon" Width="auto" MinHeight="100" VerticalAlignment="Bottom" />
     </Grid>
 </Window>

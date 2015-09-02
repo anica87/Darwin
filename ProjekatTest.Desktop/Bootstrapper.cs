@@ -28,10 +28,8 @@ namespace ProjekatTest.Desktop
             ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
 
             moduleCatalog.AddModule(typeof(ModuleConfigurations.ModuleConfigurations));
-            //moduleCatalog.AddModule(typeof(ProjekatTestModule.ProjekatTestModule));
-            moduleCatalog.AddModule(typeof (ProjekatTest.ModuleShared.ModuleShared));
-
-
+           // moduleCatalog.AddModule(typeof(ProjekatTestModule.ProjekatTestModule));
+           // moduleCatalog.AddModule(typeof (ProjekatTest.ModuleShared.ModuleShared));
         }
 
     }

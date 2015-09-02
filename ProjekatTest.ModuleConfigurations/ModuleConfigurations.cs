@@ -57,18 +57,26 @@ namespace ProjekatTest.ModuleConfigurations
             btnScripts.Click += (o, i) =>
             {
 
-                ScriptsView scriptsView = new ScriptsView();
-               
-                var region = this.regionManager.Regions[RegionNames.DetailRegion];
-                region.Add(scriptsView);
+                /*    ScriptsView scriptsView = new ScriptsView();
 
-               
-                if (region != null && view != null)
-                {
-                     region.Remove(view);
-                     region.Activate(scriptsView);
-                    
-                }
+                    var region = this.regionManager.Regions[RegionNames.DetailRegion];
+                    region.Add(scriptsView);
+
+
+                    if (region != null && view != null)
+                    {
+                         region.Remove(view);
+                         region.Activate(scriptsView);
+
+                    }*/
+
+                var client = new ProjekatTest.Infrastructure.ServiceReference1.Service1Client();
+
+                string strRet;
+
+                strRet = client.GetData(21);
+
+                btnScripts.Content = strRet;
             };
             Grid mainGrid = new Grid();
             mainGrid.Height = 100;

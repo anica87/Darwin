@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjekatTest.DAL", "ProjekatTest.DAL\ProjekatTest.DAL.csproj", "{C051FCA8-12ED-41D1-B8A2-D956E18C204E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjekatTest.Infrastructure", "ProjekatTest.Infrastructure\ProjekatTest.Infrastructure.csproj", "{404793DA-0564-44DB-910D-398C38A0287B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8042736-25CD-4E05-8EFF-CEE8421DCC78} = {F8042736-25CD-4E05-8EFF-CEE8421DCC78}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjekatTest.Services", "ProjekatTest.Services\ProjekatTest.Services.csproj", "{98DE6999-A688-4F82-B0EA-4E56C71CBFCC}"
 EndProject
